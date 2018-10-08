@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/kodeInvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Invoice : "/>
+
+    <TextView
+        android:id="@+id/invoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/kodeInvoice"
+        android:text="VWUSM7XNMKX5"/>
+
+    <TextView
+        android:id="@+id/tBrgkt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kodeInvoice"
+        android:text="Tanggal Berangkat : "/>
+
+    <TextView
+        android:id="@+id/tglBrgkt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-03-03"
+        android:layout_below="@+id/kodeInvoice"
+        android:layout_toRightOf="@+id/tBrgkt"/>
+
+    <TextView
+        android:id="@+id/tuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tBrgkt"
+        android:text="Paket Wisata : "/>
+
+    <TextView
+        android:id="@+id/tujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malang"
+        android:layout_below="@+id/tBrgkt"
+        android:layout_toRightOf="@+id/tuj"/>
+
+</RelativeLayout>

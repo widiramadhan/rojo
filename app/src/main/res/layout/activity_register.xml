@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/detailpemesanan"
+        android:id="@+id/identity">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACCOUNT"
+                android:textSize="20dp"
+                android:textColor="@color/textgreen"
+                android:id="@+id/tit1"/>
+
+            <TextView
+                android:id="@+id/tit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" REGISTER"
+                android:textSize="20dp"
+                android:textColor="@color/textblue"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/tit1"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/namaadapter"
+            android:layout_below="@id/tit2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spinTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/namadepan"
+                    android:hint="Nama depan"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text|textCapSentences"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+            </LinearLayout>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/namaBlkg"
+            android:layout_below="@+id/namaadapter">
+
+            <EditText
+                android:id="@+id/namaLast"
+                android:hint="Nama belakang"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|textCapSentences"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/usenme"
+            android:layout_below="@+id/namaBlkg">
+
+            <EditText
+                android:id="@+id/username"
+                android:hint="Username"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/emailadapter"
+            android:layout_below="@id/usenme">
+
+            <EditText
+                android:id="@+id/email"
+                android:hint="Email"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/noadapter"
+            android:layout_below="@id/emailadapter">
+
+            <EditText
+                android:id="@+id/nohp"
+                android:hint="No Hp"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:focusable="true"
+                android:text="+62"
+                android:focusableInTouchMode="true"
+                android:layout_marginBottom="10dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/national"
+            android:layout_below="@id/noadapter">
+
+            <EditText
+                android:id="@+id/nationality"
+                android:hint="Warga Negara"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:focusable="false"
+                android:layout_marginBottom="10dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/addressn"
+            android:layout_below="@id/national">
+
+            <EditText
+                android:id="@+id/alamat"
+                android:hint="Alamat"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|textCapSentences"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginBottom="10dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/pass"
+            android:layout_below="@+id/addressn">
+
+
+            <EditText
+                android:id="@+id/password"
+                android:hint="Password"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:id="@+id/cpass"
+            android:layout_below="@id/pass">
+
+
+            <EditText
+                android:id="@+id/cpassrowd"
+                android:hint="Confirm Password"
+                android:drawablePadding="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/submiton"
+            android:layout_below="@id/cpass"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded"
+            android:text="Daftar" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/negaraid"
+            android:visibility="gone"
+            android:layout_below="@+id/submiton"/>
+
+
+
+    </RelativeLayout>
+    <!---
+        <TextView
+            android:id="@+id/masukdengan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="atau daftar dengan"
+            android:textColor="@color/blacktext"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <ImageView
+            android:id="@+id/fblogin"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fblogin"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/twlogin"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_twlogin"/>
+
+            -->
+    </ScrollView>

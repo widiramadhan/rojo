@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Dewasa"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textAlignment="center"
+            android:layout_weight="1.0"/>
+
+        <TextView
+            android:text="Anak-Anak"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textAlignment="center"
+            android:layout_weight="1.0"/>
+
+        <TextView
+            android:text="Bayi"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textAlignment="center"
+            android:layout_weight="1.0"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Age 12+"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:layout_weight="1.0"/>
+
+        <TextView
+            android:text="Age 2 - 11"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:layout_weight="1.0"/>
+
+        <TextView
+            android:text="Below age 2"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:layout_weight="1.0"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <NumberPicker
+            android:id="@+id/npDewasa"
+            android:layout_weight="1.0"></NumberPicker>
+
+        <NumberPicker
+            android:id="@+id/npAnak"
+            android:layout_weight="1.0"></NumberPicker>
+
+        <NumberPicker
+            android:id="@+id/npBayi"
+            android:layout_weight="1.0"></NumberPicker>
+    </TableRow>
+
+</TableLayout>

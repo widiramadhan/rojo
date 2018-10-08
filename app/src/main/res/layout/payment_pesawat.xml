@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/titlerelative">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/blacktext"
+                android:text="Payment Method"/>
+
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorWhite"
+            android:id="@+id/detailpulang"
+            android:layout_below="@+id/titlerelative">
+
+            <TextView
+                android:id="@+id/pulang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blacktext"
+                android:text="Air Asia A001"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/imgpulang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_airasia"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@id/pulang"/>
+
+
+            <ImageView
+                android:id="@+id/ppp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pesawatpp"
+                android:padding="5dp"
+                android:layout_below="@+id/pulang"/>
+
+            <TextView
+                android:id="@+id/pswbrngkt"
+                android:layout_toRightOf="@id/ppp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pulang"
+                android:textSize="16dp"
+                android:textColor="@color/blacktext"
+                android:text="CGK"/>
+
+            <ImageView
+                android:id="@+id/imgpp"
+                android:layout_toRightOf="@id/pswbrngkt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pp"
+                android:layout_below="@+id/pulang"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/pswtjn"
+                android:layout_toRightOf="@id/imgpp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_below="@+id/pulang"
+                android:textColor="@color/blacktext"
+                android:text="DPS"/>
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_below="@+id/pswbrngkt"
+                android:layout_toRightOf="@id/ppp"
+                android:text="01 Oktober 2017 - 02 Oktober 2017"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#f6f7f6"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/idrtotal"
+            android:layout_below="@+id/detailpulang">
+
+            <TextView
+                android:id="@+id/idr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/blacktext"
+                android:text="IDR 990.000"
+                android:layout_marginBottom="10dp"/>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/idrtotal"
+            android:id="@+id/detailharga">
+
+            <TextView
+                android:id="@+id/hargadet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/blacktext"
+                android:text="Choose Method"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/detailharga"
+            android:background="@color/colorWhite"
+            android:id="@+id/transfer">
+
+            <TextView
+                android:id="@+id/databank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/blacktext"
+                android:text="Transfer"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_arrow"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/detailharga"
+            android:background="@color/colorWhite"
+            android:id="@+id/bankdata">
+
+            <ImageView
+                android:id="@+id/bca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bca"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mandiri"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/bca"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/bankdata"
+            android:id="@+id/othermethod">
+
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/blacktext"
+                android:text="Other Method"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/othermethod"
+            android:background="@color/colorWhite"
+            android:id="@+id/otherpayment">
+
+            <ImageView
+                android:id="@+id/veritrans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_veritrans"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

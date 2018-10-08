@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rojo</string>
+    <string name="tabLayout_awal">Awal</string>
+    <string name="tabLayout_pesanan">Pesanan</string>
+    <string name="tabLayout_inbox">Inbox</string>
+    <string name="tabLayout_akun">Akun</string>
+</resources>

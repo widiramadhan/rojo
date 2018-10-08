@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textsukses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pemesanan Mobil Gagal"/>
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_below="@id/textsukses"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded"
+            android:text="Kembali ke Home"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,352 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1ec915046847045898e2da3da8bc2b51\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f5208cdd355a4e911d5a5c7bb59ee11b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.1.0.aar\4259c8bf828bf6b0231dffb162a054cf\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\344ac320adeb7f27234cec91160faf47\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\1b4ba37b7b85f48ac45bcdbc36324bba\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\63162b57fbdea79660a4b2f2abc6957e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\21a52c9eb14f628654d6dd08c1bfe754\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e227238e9e0fffa33fef9d453f72d6a9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\acd239ae5c46d9fec2b2d4af0f2ce372\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\891611f3621b7b5e53f13047c4894eb5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a8ec770deb734b7f6043a97d4eb47987\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f2e7484531c4bd088cdacf2889c5d9f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ed619ab89e020bb3f1fd11c94bf80d63\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bae488793439ecc17e29a4d2d79455c6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d64db868e11b0d4dd91c69bc02a48c0\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+	package
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:1-90:12
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#com.android.internal.policy.PhoneWindow
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#com.samsung.android.provider.filterprovider.permission.READ_FILTER
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:11:5-106
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:11:22-103
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:12:5-117
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:12:22-114
+uses-permission#com.samsung.android.motion.IMotionRecognitionService
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:13:5-92
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:13:22-89
+uses-permission#com.samsung.android.*
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:14:5-61
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:14:22-58
+application
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:16:5-88:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1ec915046847045898e2da3da8bc2b51\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1ec915046847045898e2da3da8bc2b51\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f5208cdd355a4e911d5a5c7bb59ee11b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f5208cdd355a4e911d5a5c7bb59ee11b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.1.0.aar\4259c8bf828bf6b0231dffb162a054cf\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.1.0.aar\4259c8bf828bf6b0231dffb162a054cf\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\344ac320adeb7f27234cec91160faf47\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\344ac320adeb7f27234cec91160faf47\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\1b4ba37b7b85f48ac45bcdbc36324bba\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\1b4ba37b7b85f48ac45bcdbc36324bba\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\63162b57fbdea79660a4b2f2abc6957e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\63162b57fbdea79660a4b2f2abc6957e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\21a52c9eb14f628654d6dd08c1bfe754\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\21a52c9eb14f628654d6dd08c1bfe754\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e227238e9e0fffa33fef9d453f72d6a9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e227238e9e0fffa33fef9d453f72d6a9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\acd239ae5c46d9fec2b2d4af0f2ce372\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\acd239ae5c46d9fec2b2d4af0f2ce372\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\891611f3621b7b5e53f13047c4894eb5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\891611f3621b7b5e53f13047c4894eb5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a8ec770deb734b7f6043a97d4eb47987\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a8ec770deb734b7f6043a97d4eb47987\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f2e7484531c4bd088cdacf2889c5d9f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f2e7484531c4bd088cdacf2889c5d9f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ed619ab89e020bb3f1fd11c94bf80d63\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ed619ab89e020bb3f1fd11c94bf80d63\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bae488793439ecc17e29a4d2d79455c6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bae488793439ecc17e29a4d2d79455c6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d64db868e11b0d4dd91c69bc02a48c0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d64db868e11b0d4dd91c69bc02a48c0\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:17:9-38
+activity#com.rojo.travel.MainActivity
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:26:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.rojo.travel.pesawat.ActivityPesawat
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:33:9-35:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:34:13-52
+activity#com.rojo.travel.pesawat.ListPenerbangan
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:36:9-38:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:37:13-52
+activity#com.rojo.travel.pesawat.ListPenerbanganReturn
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:40:13-58
+activity#com.rojo.travel.pesawat.DetailPemesanan
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:42:9-44:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:43:13-52
+activity#com.rojo.travel.pesawat.PaymentPesawat
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:45:9-47:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:46:13-51
+activity#com.rojo.travel.kereta.ActivityKereta
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:48:9-50:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:49:13-50
+activity#com.rojo.travel.kereta.ListKereta
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:52:13-46
+activity#com.rojo.travel.kereta.DetailPemesananKereta
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:54:9-56:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:56:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:55:13-57
+activity#com.rojo.travel.kereta.PaymentKereta
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:57:9-59:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:58:13-49
+activity#com.rojo.travel.mobil.ActivityMobil
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:60:9-62:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:62:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:61:13-48
+activity#com.rojo.travel.mobil.ReturnMobil
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:63:9-65:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:64:13-46
+activity#com.rojo.travel.tour.ActivityTour
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:66:9-68:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:67:13-46
+activity#com.rojo.travel.tour.DetailTour
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:69:9-71:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:70:13-44
+activity#com.rojo.travel.tour.ListTour
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:72:9-74:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:73:13-42
+activity#com.rojo.travel.OpenBrowser
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:75:9-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:75:19-46
+activity#com.rojo.travel.akun.Login
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:77:13-39
+activity#com.rojo.travel.order.HistoryPesananPesawat
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:80:13-56
+activity#com.rojo.travel.akun.Register
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:83:13-42
+activity#com.rojo.travel.tour.DataPemesanTour
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:85:9-58
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:85:19-55
+activity#com.rojo.travel.tour.HargaTour
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:86:9-52
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:86:19-49
+activity#com.rojo.travel.akun.ForgotPass
+ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:87:9-62
+	android:name
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml:87:19-50
+uses-sdk
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1ec915046847045898e2da3da8bc2b51\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1ec915046847045898e2da3da8bc2b51\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f5208cdd355a4e911d5a5c7bb59ee11b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f5208cdd355a4e911d5a5c7bb59ee11b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.1.0.aar\4259c8bf828bf6b0231dffb162a054cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.1.0.aar\4259c8bf828bf6b0231dffb162a054cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\344ac320adeb7f27234cec91160faf47\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\344ac320adeb7f27234cec91160faf47\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\1b4ba37b7b85f48ac45bcdbc36324bba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\1b4ba37b7b85f48ac45bcdbc36324bba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\63162b57fbdea79660a4b2f2abc6957e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\63162b57fbdea79660a4b2f2abc6957e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\21a52c9eb14f628654d6dd08c1bfe754\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\21a52c9eb14f628654d6dd08c1bfe754\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e227238e9e0fffa33fef9d453f72d6a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e227238e9e0fffa33fef9d453f72d6a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\acd239ae5c46d9fec2b2d4af0f2ce372\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\acd239ae5c46d9fec2b2d4af0f2ce372\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\891611f3621b7b5e53f13047c4894eb5\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\891611f3621b7b5e53f13047c4894eb5\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a8ec770deb734b7f6043a97d4eb47987\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a8ec770deb734b7f6043a97d4eb47987\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f2e7484531c4bd088cdacf2889c5d9f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f2e7484531c4bd088cdacf2889c5d9f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ed619ab89e020bb3f1fd11c94bf80d63\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ed619ab89e020bb3f1fd11c94bf80d63\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bae488793439ecc17e29a4d2d79455c6\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bae488793439ecc17e29a4d2d79455c6\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d64db868e11b0d4dd91c69bc02a48c0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d64db868e11b0d4dd91c69bc02a48c0\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ASUS\Documents\GitHub\rojo\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f5208cdd355a4e911d5a5c7bb59ee11b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f5208cdd355a4e911d5a5c7bb59ee11b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.1.0.aar\4259c8bf828bf6b0231dffb162a054cf\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.1.0.aar\4259c8bf828bf6b0231dffb162a054cf\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\1b4ba37b7b85f48ac45bcdbc36324bba\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\1b4ba37b7b85f48ac45bcdbc36324bba\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\63162b57fbdea79660a4b2f2abc6957e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\63162b57fbdea79660a4b2f2abc6957e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\21a52c9eb14f628654d6dd08c1bfe754\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\21a52c9eb14f628654d6dd08c1bfe754\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e227238e9e0fffa33fef9d453f72d6a9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e227238e9e0fffa33fef9d453f72d6a9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\acd239ae5c46d9fec2b2d4af0f2ce372\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\acd239ae5c46d9fec2b2d4af0f2ce372\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\891611f3621b7b5e53f13047c4894eb5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\891611f3621b7b5e53f13047c4894eb5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a8ec770deb734b7f6043a97d4eb47987\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a8ec770deb734b7f6043a97d4eb47987\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f2e7484531c4bd088cdacf2889c5d9f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8f2e7484531c4bd088cdacf2889c5d9f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ed619ab89e020bb3f1fd11c94bf80d63\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ed619ab89e020bb3f1fd11c94bf80d63\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bae488793439ecc17e29a4d2d79455c6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bae488793439ecc17e29a4d2d79455c6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d64db868e11b0d4dd91c69bc02a48c0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d64db868e11b0d4dd91c69bc02a48c0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acc993127c65a0ebfe102c07af459996\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\340cf97c42a0235d3c2e05e4e9103972\AndroidManifest.xml:26:13-58

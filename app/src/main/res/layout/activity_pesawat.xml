@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinator"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pesawat.ActivityPesawat">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARI"
+            android:textSize="25dp"
+            android:textColor="@color/textgreen"
+            android:id="@+id/cari"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" FLIGHT"
+            android:textSize="25dp"
+            android:textColor="@color/textblue"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/cari"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:shrinkColumns="*">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="*"
+                        android:layout_weight="5.3">
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:theme="@style/TextLabel">
+
+                                <EditText
+                                    android:id="@+id/berangkat"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="54dp"
+                                    android:drawableLeft="@drawable/ic_takeoff"
+                                    android:drawablePadding="10dp"
+                                    android:focusable="false"
+                                    android:hint="Pilih Keberangkatan"
+                                    android:inputType="text"
+                                    android:paddingBottom="10dp" />
+
+                            </android.support.design.widget.TextInputLayout>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:theme="@style/TextLabel">
+
+                                <EditText
+                                    android:id="@+id/pulang"
+                                    android:hint="Pilih Tujuan"
+                                    android:drawableLeft="@drawable/ic_landing"
+                                    android:drawablePadding="10dp"
+                                    android:paddingBottom="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="text"
+                                    android:focusable="false"/>
+
+                            </android.support.design.widget.TextInputLayout>
+                        </TableRow>
+                    </TableLayout>
+                    <ImageButton
+                        android:id="@+id/btnUbah"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_ubahdata"
+                        android:layout_gravity="center|left"
+                        android:paddingBottom="26dp"
+                        android:background="@null"/>
+                </TableRow>
+            </TableLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/tglberangkat"
+                        android:hint="Tanggal Berangkat"
+                        android:drawableLeft="@drawable/ic_datein"
+                        android:drawablePadding="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:id="@+id/tvRoundTrip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Round Trip?"
+                        android:textSize="10dp"
+                        android:textColor="@color/teal_400"
+                        android:layout_alignTop="@id/tglberangkat"
+                        android:layout_alignBottom="@id/tglberangkat"
+                        android:layout_alignRight="@id/tglberangkat"
+                        android:layout_above="@+id/aSwitch"
+                        android:layout_marginBottom="10dp"/>
+
+                    <Switch
+                        android:id="@+id/aSwitch"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/tglberangkat"
+                        android:layout_alignBottom="@id/tglberangkat"
+                        android:layout_alignRight="@id/tglberangkat"
+                        android:textOff=""
+                        android:textOn=""
+                        android:checked="true"
+                        android:layout_marginBottom="8dp"/>
+
+                </RelativeLayout>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <EditText
+                    android:id="@+id/tglpulang"
+                    android:hint="Tanggal Kembali"
+                    android:drawableLeft="@drawable/ic_dateout"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:focusable="false"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <EditText
+                    android:id="@+id/jumPenumpang"
+                    android:hint="Passenger"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:focusable="false"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/submiton"
+                android:layout_below="@id/pulang"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded"
+                android:text="CARI PESAWAT" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

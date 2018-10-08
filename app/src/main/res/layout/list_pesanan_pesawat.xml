@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ImageMaskapai"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_pesawat" />
+
+    <TextView
+        android:id="@+id/Maskapai"
+        android:layout_toRightOf="@id/ImageMaskapai"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="@color/blacktext"
+        android:text="Air Asia" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_below="@id/ImageMaskapai"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Jam" />
+
+    <TextView
+        android:id="@+id/bandara"
+        android:layout_below="@id/tanggal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Bandara" />
+
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_alignBaseline="@id/bandara"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Order ID"
+        android:paddingRight="10dp"/>
+
+    <!--<ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-13dp"
+        android:layout_marginTop="22dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_arrow" />-->
+
+
+
+
+</RelativeLayout>

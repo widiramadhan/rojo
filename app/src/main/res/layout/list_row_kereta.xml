@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="3dp">
+
+    <TextView
+        android:id="@+id/namakereta"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="@color/blacktext"
+        android:text="Nama Kereta"
+        android:paddingTop="5dp"/>
+
+
+    <TextView
+        android:id="@+id/kelaskereta"
+        android:layout_below="@id/namakereta"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:text="Ekonomi" />
+
+    <TextView
+        android:id="@+id/stbrgkt"
+        android:layout_below="@id/kelaskereta"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Berangkat " />
+
+    <TextView
+        android:id="@+id/jambrgkt"
+        android:layout_below="@id/kelaskereta"
+        android:layout_toRightOf="@id/stbrgkt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="(08:00) - " />
+
+    <TextView
+        android:id="@+id/stujuan"
+        android:layout_below="@id/kelaskereta"
+        android:layout_toRightOf="@id/jambrgkt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Tujuan "/>
+
+    <TextView
+        android:id="@+id/jamtujuan"
+        android:layout_below="@id/kelaskereta"
+        android:layout_toRightOf="@id/stujuan"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="(08:00)" />
+
+    <TextView
+        android:id="@+id/kursi"
+        android:layout_below="@id/stbrgkt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Sisa 42 Kursi"
+        android:paddingBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-13dp"
+        android:layout_marginTop="22dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/idr"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="-8dp"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/textgreen"
+        android:text="IDR" />
+    <TextView
+        android:id="@+id/harga"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_marginRight="-8dp"
+        android:layout_below="@id/idr"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/textgreen"
+        android:text="Harga" />
+
+
+
+</RelativeLayout>

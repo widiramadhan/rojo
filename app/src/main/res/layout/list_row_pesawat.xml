@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/Maskapai"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="@color/blacktext"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/ImageMaskapai"
+        android:layout_toRightOf="@id/Maskapai"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/kode"
+        android:layout_below="@id/ImageMaskapai"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/jam"
+        android:layout_below="@id/kode"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/direct"
+        android:layout_below="@id/jam"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="TextView"
+        android:paddingBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-13dp"
+        android:layout_marginTop="22dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/idr"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="-8dp"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/textgreen"
+        android:text="IDR" />
+    <TextView
+        android:id="@+id/harga"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_marginRight="-8dp"
+        android:layout_below="@id/idr"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/textgreen"
+        android:text="Harga" />
+
+
+
+</RelativeLayout>

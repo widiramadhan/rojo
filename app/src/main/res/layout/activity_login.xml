@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCOUNT"
+            android:textSize="20dp"
+            android:textColor="@color/textgreen"
+            android:id="@+id/cari"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" LOGIN"
+            android:textSize="20dp"
+            android:textColor="@color/textblue"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/cari"/>
+
+    </RelativeLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="Email"
+            android:drawablePadding="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:hint="Password"
+            android:drawablePadding="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/submiton"
+        android:layout_below="@id/password"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded"
+        android:text="Masuk" />
+
+
+    <TextView
+        android:id="@+id/lupapassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lupa Password ?"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:onClick="forgot_pass"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/masukdengan"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="atau masuk dengan"-->
+        <!--android:textColor="@color/blacktext"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:textSize="12dp"-->
+        <!--android:layout_gravity="center_horizontal"/>-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/fblogin"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_fblogin"-->
+        <!--android:layout_marginBottom="5dp"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/twlogin"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_twlogin"/>-->
+
+
+</LinearLayout>

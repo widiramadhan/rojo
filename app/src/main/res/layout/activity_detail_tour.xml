@@ -1,0 +1,315 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/scrollview"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <RelativeLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgView"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/titleTour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Judul"
+                    android:textSize="25dp"
+                    android:textColor="@color/textgreen"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi"
+                    android:textColor="@color/blacktext"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="15dp"
+                    android:id="@+id/deskripsi"
+                    android:layout_below="@id/titleTour"/>
+
+                <TextView
+                    android:id="@+id/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="desc."
+                    android:layout_below="@id/deskripsi"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Include"
+                    android:textColor="@color/blacktext"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="15dp"
+                    android:id="@+id/inc"
+                    android:layout_below="@id/Description"/>
+
+                <TextView
+                    android:id="@+id/include"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="inc."
+                    android:layout_below="@id/inc"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Exclude"
+                    android:textColor="@color/blacktext"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="15dp"
+                    android:id="@+id/exc"
+                    android:layout_below="@id/include"/>
+
+                <TextView
+                    android:id="@+id/exclude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="exc."
+                    android:layout_below="@id/exc"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terms"
+                    android:textColor="@color/blacktext"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="15dp"
+                    android:id="@+id/ters"
+                    android:layout_below="@id/exclude"/>
+
+                <TextView
+                    android:id="@+id/terms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="terms."
+                    android:layout_below="@id/ters"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:gravity="bottom"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/imageView"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Harga mulai dari"/>
+                <TextView
+                    android:id="@+id/harga"
+                    android:layout_below="@id/imageView"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:textSize="20dp"
+                    android:text="Rp. 295.000"/>
+
+                <Button
+                    android:id="@+id/pilih"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:background="@drawable/rounded"
+                    android:text="Pilih Tour"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/hidden_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/hargasingle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/teks1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Harga Individual"/>
+
+            <TextView
+                android:id="@+id/harga1"
+                android:layout_below="@id/teks1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:text="Rp. 295.000"/>
+
+            <Button
+                android:id="@+id/pilih1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/rounded"
+                android:text="Pilih"
+                android:onClick="slideUpDown"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/hargadouble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:layout_below="@id/hargasingle"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/teks2"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Harga Double"/>
+
+            <TextView
+                android:id="@+id/harga2"
+                android:layout_below="@id/teks2"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:text="Rp. 295.000"/>
+
+            <Button
+                android:id="@+id/pilih2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/rounded"
+                android:text="Pilih"
+                android:onClick="slideUpDown"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/hargagroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:layout_below="@id/hargadouble"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/teks3"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Harga Group"/>
+
+            <TextView
+                android:id="@+id/harga3"
+                android:layout_below="@id/teks3"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:text="Rp. 295.000"/>
+
+            <Button
+                android:id="@+id/pilih3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/rounded"
+                android:text="Pilih"
+                android:onClick="slideUpDown"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rojo.travel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.internal.policy.PhoneWindow" />
+    <uses-permission android:name="com.samsung.android.provider.filterprovider.permission.READ_FILTER" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="com.samsung.android.motion.IMotionRecognitionService" />
+    <uses-permission android:name="com.samsung.android.*" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pesawat.ActivityPesawat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pesawat.ListPenerbangan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pesawat.ListPenerbanganReturn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pesawat.DetailPemesanan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pesawat.PaymentPesawat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kereta.ActivityKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kereta.ListKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kereta.DetailPemesananKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kereta.PaymentKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mobil.ActivityMobil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mobil.ReturnMobil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tour.ActivityTour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tour.DetailTour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tour.ListTour"
+            android:screenOrientation="portrait" />
+        <activity android:name=".OpenBrowser" />
+        <activity
+            android:name=".akun.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".order.HistoryPesananPesawat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".akun.Register"
+            android:screenOrientation="portrait" />
+        <activity android:name=".tour.DataPemesanTour" />
+        <activity android:name=".tour.HargaTour" />
+        <activity android:name=".akun.ForgotPass"></activity>
+    </application>
+
+</manifest>

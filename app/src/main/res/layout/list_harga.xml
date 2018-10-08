@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/background">
+
+        <TextView
+            android:id="@+id/namapaketharga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver"
+            android:textSize="15dp"
+            android:textColor="@color/blacktext"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/nama_tour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/id_paket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/id_kelas_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/hargaindividual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/namaindividual"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/blacktext"
+            android:paddingTop="5dp"
+            android:text="Harga Individual"/>
+
+        <EditText
+            android:id="@+id/jenisindividual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/hargai"
+            android:layout_below="@id/namaindividual"
+            android:textColor="@color/blacktext"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="20dp"
+            android:text="Rp. 295.000"/>
+
+        <Button
+            android:id="@+id/pilihindividual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/rounded"
+            android:text="Pilih"
+            android:onClick="slideUpDown"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hargafamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/namafamily"
+            android:layout_gravity="left"
+            android:textColor="@color/blacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Harga Family"/>
+
+        <EditText
+            android:id="@+id/jenisfamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/hargaf"
+            android:layout_below="@id/namafamily"
+            android:layout_gravity="left"
+            android:textColor="@color/blacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="20dp"
+            android:text="Rp. 295.000"/>
+
+        <Button
+            android:id="@+id/pilihfamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/rounded"
+            android:text="Pilih"
+            android:onClick="slideUpDown"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hargagroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/namagroup"
+            android:layout_gravity="left"
+            android:textColor="@color/blacktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Harga Group"/>
+
+        <EditText
+            android:id="@+id/jenisgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/hargag"
+            android:textColor="@color/blacktext"
+            android:layout_below="@id/namagroup"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="20dp"
+            android:text="Rp. 295.000"/>
+
+        <Button
+            android:id="@+id/pilihgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/rounded"
+            android:text="Pilih"
+            android:onClick="slideUpDown"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

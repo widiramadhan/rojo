@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+
+    <ImageView
+        android:id="@+id/imagetour"
+        android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_marginLeft="3dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:id="@+id/rate"
+        android:layout_toRightOf="@+id/imagetour"
+        android:src="@drawable/ic_rate"
+        android:layout_marginLeft="3dp"/>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Paket Wisata 4 Hari 3 Malam Bali Denpasar"
+        android:id="@+id/judultour"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@+id/rate"
+        android:layout_toRightOf="@+id/imagetour"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/idr"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/textgreen"
+        android:layout_below="@+id/judultour"
+        android:layout_toRightOf="@+id/imagetour"
+        android:layout_marginLeft="3dp"
+        android:text="IDR" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judultour"
+        android:layout_toRightOf="@+id/idr"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/textgreen"
+        android:text="Harga" />
+
+
+
+</RelativeLayout>

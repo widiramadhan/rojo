@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Sat Oct 06 10:55:39 ICT 2018
+1.base=D\:\\KANTOR\\ROJOS\\ROJO (Android)\\Rojos_wv\\Rojos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32
+2.path=classes.dex
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=D\:\\KANTOR\\ROJOS\\ROJO (Android)\\Rojos_wv\\Rojos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
+3.set=DEX
+2.set=DEX
+1.baseType=DIRECTORY
+3.path=classes.dex
+count=4
+1.set=DEX
+0.path=classes.dex
+3.base=D\:\\KANTOR\\ROJOS\\ROJO (Android)\\Rojos_wv\\Rojos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\29
+0.set=DEX
+0.base=D\:\\KANTOR\\ROJOS\\ROJO (Android)\\Rojos_wv\\Rojos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
+2.baseType=DIRECTORY
+1.path=classes.dex

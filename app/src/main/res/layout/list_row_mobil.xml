@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="56dp"
+        android:id="@+id/imgMobil"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:id="@+id/mobilName"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMobil"
+        android:paddingLeft="5dp"
+        android:text="Nama Mobil"
+        android:textSize="14dp"
+        android:textColor="@color/blacktext"/>
+
+    <TextView
+        android:id="@+id/infoMobil"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/mobilName"
+        android:layout_toRightOf="@id/imgMobil"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/darkGray"
+        android:text="Info Mobil"/>
+
+    <TextView
+        android:id="@+id/kursiMobil"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/infoMobil"
+        android:layout_toRightOf="@id/imgMobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/blacktext"
+        android:text="Kursi, "/>
+
+    <TextView
+        android:id="@+id/supirMobil"
+        android:layout_below="@+id/infoMobil"
+        android:layout_toRightOf="@id/kursiMobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/blacktext"
+        android:text="Supir"/>
+
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-13dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/idr"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="-8dp"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/textgreen"
+        android:text="IDR" />
+    <TextView
+        android:id="@+id/harga"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_marginRight="-8dp"
+        android:layout_below="@id/idr"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/textgreen"
+        android:text="Harga" />
+
+
+</RelativeLayout>

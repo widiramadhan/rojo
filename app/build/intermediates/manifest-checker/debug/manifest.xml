@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rojo.travel"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.internal.policy.PhoneWindow" />
+    <uses-permission android:name="com.samsung.android.provider.filterprovider.permission.READ_FILTER" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="com.samsung.android.motion.IMotionRecognitionService" />
+    <uses-permission android:name="com.samsung.android.*" />
+
+    <application
+        android:name="com.rojo.travel.MyApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rojo.travel.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rojo.travel.pesawat.ActivityPesawat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.pesawat.ListPenerbangan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.pesawat.ListPenerbanganReturn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.pesawat.DetailPemesanan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.pesawat.PaymentPesawat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.kereta.ActivityKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.kereta.ListKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.kereta.DetailPemesananKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.kereta.PaymentKereta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.mobil.ActivityMobil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.mobil.ReturnMobil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.tour.ActivityTour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.tour.DetailTour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.tour.ListTour"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.rojo.travel.OpenBrowser" />
+        <activity
+            android:name="com.rojo.travel.akun.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.order.HistoryPesananPesawat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rojo.travel.akun.Register"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.rojo.travel.tour.DataPemesanTour" />
+        <activity android:name="com.rojo.travel.tour.HargaTour" />
+        <activity android:name="com.rojo.travel.akun.ForgotPass" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.rojo.travel.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

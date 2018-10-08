@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/jMobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Mobil : "/>
+
+    <TextView
+        android:id="@+id/mobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/jMobil"
+        android:text="Toyota Avanza"/>
+
+    <TextView
+        android:id="@+id/tSewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jMobil"
+        android:text="Tanggal Sewa : "/>
+
+    <TextView
+        android:id="@+id/tglSewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-03-03"
+        android:layout_below="@+id/jMobil"
+        android:layout_toRightOf="@+id/tSewa"/>
+
+    <TextView
+        android:id="@+id/tuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tSewa"
+        android:text="Tujuan : "/>
+
+    <TextView
+        android:id="@+id/tujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malang"
+        android:layout_below="@+id/tSewa"
+        android:layout_toRightOf="@+id/tuj"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum Bayar"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
