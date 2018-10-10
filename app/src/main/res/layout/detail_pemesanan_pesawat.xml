@@ -3,524 +3,576 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:id="@+id/titlerelative"
-            android:background="@color/graytext">
+            android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pemesanan Anda :"
-                android:textColor="@color/blacktext"
-                android:textSize="16dp" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="2dp"
-            android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:layout_below="@id/titlerelative"
-            android:background="@color/colorWhite"
-            android:id="@+id/infopesawat"
-            android:layout_marginBottom="5dp">
-
-            <ImageView
-                android:id="@+id/ppp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_pesawatpp"
-                android:padding="5dp"/>
-
-            <TextView
-                android:id="@+id/pswbrngkt"
-                android:layout_toRightOf="@id/ppp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="Jakarta"/>
-
-            <ImageView
-                android:id="@+id/imgpp"
-                android:layout_toRightOf="@id/pswbrngkt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_pp"
-                android:padding="5dp"/>
-
-            <TextView
-                android:id="@+id/pswtjn"
-                android:layout_toRightOf="@id/imgpp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="Denpasar"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="2dp"
-            android:paddingBottom="2dp"
-            android:padding="10dp"
-            android:background="@color/colorWhite"
-            android:layout_marginBottom="4dp"
-            android:id="@+id/detailberangkat"
-            android:layout_below="@+id/infopesawat">
-
-            <TextView
-                android:id="@+id/berangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="Senin, 01 Oktober 2017"
-                android:layout_marginBottom="2dp"/>
-
-            <ImageView
-                android:id="@+id/imgberangkat"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_airasia"
-                android:layout_below="@id/berangkat"/>
-
-            <TextView
-                android:id="@+id/namapesawatberangkat"
-                android:layout_toRightOf="@+id/imgberangkat"
-                android:layout_below="@id/berangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="Air Asia"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/kodeberangkat"
-                android:layout_toRightOf="@+id/imgberangkat"
-                android:layout_below="@id/namapesawatberangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="A001"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/jamberangkat"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/berangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
-                android:text="13:15 - 14:35"
-                android:layout_marginBottom="2dp"/>
-
-
-            <TextView
-                android:id="@+id/idrberangkat"
-                android:layout_below="@id/imgberangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="IDR"
-                android:textSize="16dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginTop="4dp"/>
-
-            <TextView
-                android:id="@+id/hargabrgkt"
-                android:layout_below="@id/imgberangkat"
-                android:paddingLeft="5dp"
-                android:layout_toRightOf="@+id/idrberangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="549.000"
-                android:textSize="16dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginTop="4dp"/>
-
-
-            <TextView
-                android:id="@+id/ruteberangkat"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/jamberangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignRight="@+id/hargabrgkt"
-                android:textSize="12dp"
-                android:layout_marginTop="18dp"
-                android:text="Jakarta (CGK) - DENPASAR (DPS)"
-                android:layout_marginBottom="10dp"/>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@android:color/darker_gray"
-                android:layout_below="@id/ruteberangkat"/>
-
-        </RelativeLayout>
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:background="@color/colorWhite"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/detailpulang"
-            android:layout_below="@+id/detailberangkat">
-
-            <TextView
-                android:id="@+id/pulang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="Selasa, 02 Oktober 2017"
-                android:layout_marginBottom="10dp"/>
-
-            <ImageView
-                android:id="@+id/imgpulang"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_airasia"
-                android:layout_below="@id/pulang"/>
-
-            <TextView
-                android:id="@+id/namapesawatpulang"
-                android:layout_toRightOf="@+id/imgpulang"
-                android:layout_below="@id/pulang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="Air Asia"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/kodepulang"
-                android:layout_toRightOf="@+id/imgpulang"
-                android:layout_below="@id/namapesawatpulang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="A002"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/jampulang"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/pulang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
-                android:text="13:15 - 14:35"
-                android:layout_marginBottom="2dp"/>
-
-
-            <TextView
-                android:id="@+id/idrpulang"
-                android:layout_below="@id/imgpulang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="IDR"
-                android:textSize="16dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginTop="4dp"/>
-
-            <TextView
-                android:id="@+id/hargapulang"
-                android:layout_below="@id/imgpulang"
-                android:paddingLeft="5dp"
-                android:layout_toRightOf="@+id/idrpulang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/blacktext"
-                android:text="549.000"
-                android:textSize="16dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginTop="4dp"/>
-
-
-            <TextView
-                android:id="@+id/rutepulang"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/jampulang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="12dp"
-                android:layout_marginTop="18dp"
-                android:text="Jakarta (CGK) - DENPASAR (DPS)"
-                android:layout_marginBottom="10dp"/>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@android:color/darker_gray"
-                android:layout_below="@id/rutepulang"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_below="@id/detailpulang"
-            android:id="@+id/detailpemesanan"
-            android:background="@color/graytext">
-
-            <TextView
-                android:id="@+id/detpem"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="Detail Pemesan"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@color/colorWhite"
-            android:layout_below="@id/detailpemesanan"
-            android:id="@+id/identity">
-
-            <android.support.design.widget.TextInputLayout
+            <RelativeLayout
+                android:id="@+id/titlerelative"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextLabel"
-                android:id="@+id/namaadapter">
+                android:background="@color/graytext"
+                android:padding="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                <Spinner
-                    android:id="@+id/spinTitle"
+                <TextView
+                    android:id="@+id/title"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <EditText
-                    android:id="@+id/nama"
-                    android:hint="Nama depan"
-                    android:drawablePadding="10dp"
-                    android:paddingBottom="10dp"
-                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:focusable="true"
-                    android:focusableInTouchMode="true" />
-                </LinearLayout>
+                    android:text="Pemesanan Anda :"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
 
-            </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <RelativeLayout
+                android:id="@+id/infopesawat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextLabel"
-                android:id="@+id/namaBlkg"
-                android:layout_below="@+id/namaadapter">
+                android:layout_below="@id/titlerelative"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorWhite"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="2dp">
 
-                <EditText
-                    android:id="@+id/namaLast"
-                    android:hint="Nama belakang"
-                    android:drawablePadding="10dp"
-                    android:paddingBottom="10dp"
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:id="@+id/ppp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:focusable="true"
-                    android:focusableInTouchMode="true" />
+                    android:padding="5dp"
+                    android:src="@drawable/ic_pesawatpp" />
 
-            </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:id="@+id/pswbrngkt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ppp"
+                    android:text="Jakarta"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
 
-            <android.support.design.widget.TextInputLayout
+                <ImageView
+                    android:id="@+id/imgpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/pswbrngkt"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_pp" />
+
+                <TextView
+                    android:id="@+id/pswtjn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgpp"
+                    android:text="Denpasar"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/detailberangkat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextLabel"
-                android:id="@+id/emailadapter"
-                android:layout_below="@id/namaBlkg">
+                android:layout_below="@+id/infopesawat"
+                android:layout_marginBottom="4dp"
+                android:background="@color/colorWhite"
+                android:padding="10dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp">
 
-                <EditText
-                    android:id="@+id/email"
-                    android:hint="Email"
-                    android:drawablePadding="10dp"
-                    android:paddingBottom="10dp"
-                    android:layout_width="match_parent"
+                <TextView
+                    android:id="@+id/berangkat"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
-                    android:focusable="true"
-                    android:focusableInTouchMode="true"/>
+                    android:layout_marginBottom="2dp"
+                    android:text="Senin, 01 Oktober 2017"
+                    android:textColor="@color/blacktext" />
 
-            </android.support.design.widget.TextInputLayout>
+                <ImageView
+                    android:id="@+id/imgberangkat"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/berangkat"
+                    android:src="@drawable/ic_airasia" />
 
-            <android.support.design.widget.TextInputLayout
+                <TextView
+                    android:id="@+id/namapesawatberangkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/berangkat"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imgberangkat"
+                    android:text="Air Asia"
+                    android:textColor="@color/blacktext" />
+
+                <TextView
+                    android:id="@+id/kodeberangkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/namapesawatberangkat"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imgberangkat"
+                    android:text="A001"
+                    android:textColor="@color/blacktext" />
+
+                <TextView
+                    android:id="@+id/jamberangkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/berangkat"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="18dp"
+                    android:text="13:15 - 14:35" />
+
+
+                <TextView
+                    android:id="@+id/idrberangkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgberangkat"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="4dp"
+                    android:text="IDR"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/hargabrgkt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgberangkat"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/idrberangkat"
+                    android:paddingLeft="5dp"
+                    android:text="549.000"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+
+                <TextView
+                    android:id="@+id/ruteberangkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignRight="@+id/hargabrgkt"
+                    android:layout_below="@id/jamberangkat"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Jakarta (CGK) - DENPASAR (DPS)"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ruteberangkat"
+                    android:background="@android:color/darker_gray" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/detailpulang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextLabel"
-                android:id="@+id/noadapter"
-                android:layout_below="@id/emailadapter">
-
-                <EditText
-                    android:id="@+id/nohp"
-                    android:hint="No Hp"
-                    android:drawablePadding="10dp"
-                    android:paddingBottom="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="phone"
-                    android:focusable="true"
-                    android:text="+62"
-                    android:focusableInTouchMode="true"
-                    android:layout_marginBottom="10dp"/>
-
-            </android.support.design.widget.TextInputLayout>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/detailPenumpang"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_below="@+id/identity">
-
-            <TextView
-                android:id="@+id/tvDetPenumpang"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Klik disini untuk input data penumpang!"
-                android:textColor="@color/textred"
-                android:textSize="12dp"/>
-
-            <ImageView
-                android:layout_width="17dp"
-                android:layout_height="17dp"
-                android:src="@drawable/ic_arrow"
-                android:layout_alignParentRight="true"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_below="@id/detailPenumpang"
-            android:id="@+id/detailharga"
-            android:background="@color/colorWhite"
-            android:layout_marginTop="10dp">
-
-            <TextView
-                android:id="@+id/hargadet"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="Rincian Harga :"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_below="@id/detailharga"
-            android:id="@+id/detailpesawat">
-
-            <TextView
-                android:id="@+id/pesawatberangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="Lion Air (1x)"/>
-
-            <TextView
-                android:id="@+id/hargapesawatberangkat"
-                android:layout_alignParentRight="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="495.000"/>
-
-            <TextView
-                android:id="@+id/pesawatujuan"
-                android:layout_below="@id/pesawatberangkat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="Lion Air (1x)"/>
-
-            <TextView
-                android:id="@+id/hargapesawatujuan"
-                android:layout_below="@id/hargapesawatberangkat"
-                android:layout_alignParentRight="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="495.000"/>
-
-            <TextView
-                android:id="@+id/total"
-                android:layout_below="@id/pesawatujuan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="Total"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"/>
-
-            <TextView
-                android:id="@+id/hargatotal"
-                android:layout_below="@id/hargapesawatujuan"
-                android:layout_alignParentRight="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:textColor="@color/blacktext"
-                android:text="990.000"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"/>
-
-            <Button
-                android:id="@+id/submiton"
-                android:layout_below="@id/hargatotal"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
-                android:textAllCaps="false"
-                android:textColor="@color/colorWhite"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_below="@+id/detailberangkat"
                 android:layout_marginBottom="10dp"
-                android:background="@drawable/rounded"
-                android:text="SELANJUTNYA" />
+                android:background="@color/colorWhite"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/pulang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Selasa, 02 Oktober 2017"
+                    android:textColor="@color/blacktext" />
+
+                <ImageView
+                    android:id="@+id/imgpulang"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/pulang"
+                    android:src="@drawable/ic_airasia" />
+
+                <TextView
+                    android:id="@+id/namapesawatpulang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pulang"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imgpulang"
+                    android:text="Air Asia"
+                    android:textColor="@color/blacktext" />
+
+                <TextView
+                    android:id="@+id/kodepulang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/namapesawatpulang"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imgpulang"
+                    android:text="A002"
+                    android:textColor="@color/blacktext" />
+
+                <TextView
+                    android:id="@+id/jampulang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/pulang"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="18dp"
+                    android:text="13:15 - 14:35" />
+
+
+                <TextView
+                    android:id="@+id/idrpulang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgpulang"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="4dp"
+                    android:text="IDR"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/hargapulang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgpulang"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/idrpulang"
+                    android:paddingLeft="5dp"
+                    android:text="549.000"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+
+                <TextView
+                    android:id="@+id/rutepulang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/jampulang"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Jakarta (CGK) - DENPASAR (DPS)"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/rutepulang"
+                    android:background="@android:color/darker_gray" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/detailpemesanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detailpulang"
+                android:background="@color/graytext"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/detpem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Detail Pemesan"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/tvSameWithPreviousOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Sama dengan pesanan sebelumnya"
+                    android:textColor="@color/teal_400"
+                    android:textSize="10dp" />
+
+                <Switch
+                    android:id="@+id/aSwitch2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tvSameWithPreviousOrder"
+                    android:layout_marginBottom="8dp"
+                    android:checked="true"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/identity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detailpemesanan"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorWhite"
+                android:padding="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/namaadapter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/nama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="10dp"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:hint="Nama depan"
+                            android:inputType="text"
+                            android:paddingBottom="10dp" />
+                    </LinearLayout>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/namaBlkg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namaadapter"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/namaLast"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="Nama belakang"
+                        android:inputType="text"
+                        android:paddingBottom="10dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/emailadapter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/namaBlkg"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:paddingBottom="10dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/noadapter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/emailadapter"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/nohp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:drawablePadding="10dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="No Hp"
+                        android:inputType="phone"
+                        android:paddingBottom="10dp"
+                        android:text="+62" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sameDetailPenumpang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/identity"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvSameDetPenumpang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apakah data penumpang sama dengan data pemesan ?"
+                    android:textColor="@color/textred"
+                    android:textSize="12dp" />
+
+                <Switch
+                    android:id="@+id/aSwitch"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:checked="true"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/detailPenumpang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sameDetailPenumpang"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvDetPenumpang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Klik disini untuk input data penumpang!"
+                    android:textColor="@color/textred"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_arrow" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/detailharga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detailPenumpang"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorWhite"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/hargadet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rincian Harga :"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/detailpesawat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detailharga"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/pesawatberangkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lion Air (1x)"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/hargapesawatberangkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="495.000"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/pesawatujuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pesawatberangkat"
+                    android:text="Lion Air (1x)"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/hargapesawatujuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/hargapesawatberangkat"
+                    android:text="495.000"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pesawatujuan"
+                    android:layout_marginTop="10dp"
+                    android:text="Total"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/hargatotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/hargapesawatujuan"
+                    android:layout_marginTop="10dp"
+                    android:text="990.000"
+                    android:textColor="@color/blacktext"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/submiton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hargatotal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rounded"
+                    android:text="SELANJUTNYA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite" />
+
+            </RelativeLayout>
 
         </RelativeLayout>
 
-    </RelativeLayout>
-
-</ScrollView>
+    </ScrollView>
 </RelativeLayout>
