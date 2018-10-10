@@ -14,6 +14,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -37,6 +38,30 @@ public class MainActivity extends AppCompatActivity {
         actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#029a48")));
         BottomNav();
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        //getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId()==R.id.tentang_rojo){
+            Toast.makeText(MainActivity.this, "Tentang Rojo Selected", Toast.LENGTH_SHORT).show();
+        } else if (item.getItemId() == R.id.bantuan) {
+            Toast.makeText(MainActivity.this, "Bantuan Selected", Toast.LENGTH_SHORT).show();
+        } else if (item.getItemId() == R.id.syarat_ketentuan) {
+            Toast.makeText(MainActivity.this, "Syarat Ketentuan Selected", Toast.LENGTH_SHORT).show();
+        } else if (item.getItemId() == R.id.kebijakan_privasi){
+            Toast.makeText(MainActivity.this, "Kebijakan Privasi Selected", Toast.LENGTH_SHORT).show();
+        }
+
+        return true;
     }
 
     private void BottomNav() {

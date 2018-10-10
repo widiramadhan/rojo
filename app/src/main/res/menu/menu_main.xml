@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item  android:id="@+id/menu1"
-        android:title="Menu Item 1"/>
-    <item  android:id="@+id/menu2"
-        android:title="Menu Item 2"/>
-    <item  android:id="@+id/menu3"
-        android:title="Menu Item 3"/>
+    <item  android:id="@+id/tentang_rojo"
+        android:title="Tentang Rojo"/>
+    <item  android:id="@+id/bantuan"
+        android:title="Bantuan"/>
+    <item  android:id="@+id/syarat_ketentuan"
+        android:title="Syarat dan Ketentuan"/>
+    <item  android:id="@+id/kebijakan_privasi"
+        android:title="Kebijakan Provasi"/>
 </menu>

@@ -1,4 +1,4 @@
-#Sat Oct 06 10:55:38 ICT 2018
+#Tue Oct 09 02:07:13 ICT 2018
 base.0=D\:\\KANTOR\\ROJOS\\ROJO (Android)\\Rojos_wv\\Rojos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 path.0=classes.dex
 renamed.0=classes.dex

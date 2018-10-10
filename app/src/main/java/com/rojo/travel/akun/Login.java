@@ -138,10 +138,10 @@ public class Login extends AppCompatActivity{
 
                                     if(cursor.getCount()>0){
                                         temp_akun tempAkun=databaseHandler.findOne(1);
-                                        databaseHandler.delete(new temp_akun(null, null));
-                                        databaseHandler.save(new temp_akun(response.getString("email").toString(), response.getString("email").toString()));
+                                        databaseHandler.delete(new temp_akun(1, null, null, null, null, null, null));
+                                        databaseHandler.save(new temp_akun(1, null, null, null, null, response.getString("email").toString(), response.getString("email").toString()));
                                     }else {
-                                        databaseHandler.save(new temp_akun(response.getString("email").toString(), response.getString("email").toString()));
+                                        databaseHandler.save(new temp_akun(1, null, null, null, null, response.getString("email").toString(), response.getString("email").toString()));
                                     }
 
                                     Intent i = new Intent(getApplicationContext(), MainActivity.class);

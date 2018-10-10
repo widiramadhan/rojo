@@ -84,7 +84,7 @@ public class ListPenerbangan extends AppCompatActivity {
             vor = new VolleyObjectResult() {
                 @Override
                 public void resSuccess(String requestType, JSONObject response) {
-                    progressBar.setVisibility(View.GONE);
+                    //progressBar.setVisibility(View.GONE);
                     hideDialog();
                     //Toast.makeText(ListPenerbangan.this, response.toString(), Toast.LENGTH_LONG).show();
                     if (response != null) {
@@ -130,20 +130,22 @@ public class ListPenerbangan extends AppCompatActivity {
                 }
                 @Override
                 public void resError(String requestType, VolleyError error) {
-                    progressBar.setVisibility(View.GONE);
+                    //progressBar.setVisibility(View.GONE);
+                    hideDialog();
                     Toast.makeText(ListPenerbangan.this, "Penerbangan Tidak Tersedia", Toast.LENGTH_SHORT).show();
                     finish();
                 }
             };
             vos = new VolleyObjectService(vor, ListPenerbangan.this);
             vos.postJsonObject("POSTCALL", url, data);
-            progressBar.setVisibility(View.VISIBLE);
+            //progressBar.setVisibility(View.VISIBLE);
+            showDialog();
         } else if (preferences.getInt("returnDate", 0) == 1) {
             setTitle("Berangkat");
             vor = new VolleyObjectResult() {
                 @Override
                 public void resSuccess(String requestType, JSONObject response) {
-                    progressBar.setVisibility(View.GONE);
+                    //progressBar.setVisibility(View.GONE);
                     hideDialog();
                     //Toast.makeText(ListPenerbangan.this, response.toString(), Toast.LENGTH_LONG).show();
                     try {
@@ -188,6 +190,7 @@ public class ListPenerbangan extends AppCompatActivity {
                 @Override
                 public void resError(String requestType, VolleyError error) {
                     //progressBar.setVisibility(View.GONE);
+                    hideDialog();
                     Toast.makeText(ListPenerbangan.this, "Penerbangan Tidak Tersedia", Toast.LENGTH_SHORT).show();
                     finish();
                 }
@@ -195,7 +198,7 @@ public class ListPenerbangan extends AppCompatActivity {
             vos = new VolleyObjectService(vor, ListPenerbangan.this);
             vos.postJsonObject("POSTCALL", url, data);
             //progressBar.setVisibility(View.VISIBLE);
-            progressBar.setVisibility(View.VISIBLE);
+            showDialog();
         }
     }
 

@@ -113,7 +113,7 @@ public class DetailPemesanan extends AppCompatActivity {
     String[] titel_child, nama_dpnChild, nama_blkgChild, tgl_lahirChild, nation_child, bagasi_child, content_child;
     String[] titel_infant, nama_dpnInfant, nama_blkgInfant, tgl_lahirinfant, nation_infant, content_infant;
     String flight_id, flight_code, token, adult, child, infant, title_con, first_nm, last_nm, email,
-            no_tlp, uid, Email_Exist;
+            no_tlp, uid, Gelar_Exist, NamaDepan_Exist, NamaBelakang_Exist, Email_Exist, Telepon_Exist;
     String[] titleDetPen = {"Mr","Mrs"};
     String departure_date, return_date;
     //String urlNegara = "http://192.168.254.1:8080/__ROJO/Rojos/Api/getNegara";
@@ -247,17 +247,27 @@ public class DetailPemesanan extends AppCompatActivity {
 
         submiton = (Button) findViewById(R.id.submiton);
 
+        //================== Data Pemesan sebelumnya diambil dari SQLite =========================
         DatabaseHandler databaseHandler2=new DatabaseHandler(DetailPemesanan.this);
         SQLiteDatabase db=databaseHandler2.getReadableDatabase();
-        Cursor cursor=db.query("tbl_akun", new String[]{"id","akun_username","akun_email"},
+        Cursor cursor=db.query("tbl_akun", new String[]{"id","akun_gelar","akun_nama_depan","akun_nama_belakang","akun_username","akun_email","akun_telepon"},
                 null, null, null, null, null);
         //Log.d("tes","Cursor Count : " + cursor.getCount());
 
         if(cursor.getCount()>0){
             temp_akun tempAkun=databaseHandler2.findOne(1);
+            Gelar_Exist = tempAkun.getAkun_gelar();
+            NamaDepan_Exist =tempAkun.getAkun_nama_depan() ;
+            NamaBelakang_Exist = tempAkun.getAkun_nama_belakang();
             Email_Exist = tempAkun.getAkun_email();
+            Telepon_Exist = tempAkun.getAkun_telepon();
+
+            nama.setText(NamaDepan_Exist);
+            namaLast.setText(NamaBelakang_Exist);
             emailCon.setText(Email_Exist);
+            nohp.setText(Telepon_Exist);
         }
+        //========================================================================================
 
         //================ Set values to components ================
         if (preferences.getInt("returnDate", 0) == 0) {
@@ -1282,16 +1292,16 @@ public class DetailPemesanan extends AppCompatActivity {
                                     //====SQL Lite
                                     DatabaseHandler databaseHandler=new DatabaseHandler(DetailPemesanan.this);
                                     SQLiteDatabase db=databaseHandler.getReadableDatabase();
-                                    Cursor cursor=db.query("tbl_akun", new String[]{"id","akun_username","akun_email"},
+                                    Cursor cursor=db.query("tbl_akun", new String[]{"id","akun_gelar","akun_nama_depan","akun_nama_belakang","akun_username","akun_email","akun_telepon"},
                                             null, null, null, null, null);
                                     //Log.d("tes","Cursor Count : " + cursor.getCount());
 
                                     if(cursor.getCount()>0){
                                         temp_akun tempAkun=databaseHandler.findOne(1);
-                                        databaseHandler.delete(new temp_akun(null, null));
-                                        databaseHandler.save(new temp_akun(first_nm, email));
+                                        databaseHandler.delete(new temp_akun(1, null, null, null, null, null, null));
+                                        databaseHandler.save(new temp_akun(1, title_con, first_nm, last_nm, uid, email, no_tlp));
                                     }else {
-                                        databaseHandler.save(new temp_akun(first_nm, email));
+                                        databaseHandler.save(new temp_akun(1, title_con, first_nm, last_nm, uid, email, no_tlp));
                                     }
 
                                     Intent intent = new Intent(DetailPemesanan.this, OpenBrowser.class);
@@ -2340,16 +2350,16 @@ public class DetailPemesanan extends AppCompatActivity {
                                     //====SQL Lite
                                     DatabaseHandler databaseHandler=new DatabaseHandler(DetailPemesanan.this);
                                     SQLiteDatabase db=databaseHandler.getReadableDatabase();
-                                    Cursor cursor=db.query("tbl_akun", new String[]{"id","akun_username","akun_email"},
+                                    Cursor cursor=db.query("tbl_akun", new String[]{"id","akun_gelar","akun_nama_depan","akun_nama_belakang","akun_username","akun_email","akun_telepon"},
                                             null, null, null, null, null);
                                     //Log.d("tes","Cursor Count : " + cursor.getCount());
 
                                     if(cursor.getCount()>0){
                                         temp_akun tempAkun=databaseHandler.findOne(1);
-                                        databaseHandler.delete(new temp_akun(null, null));
-                                        databaseHandler.save(new temp_akun(first_nm, email));
+                                        databaseHandler.delete(new temp_akun(1, null, null, null, null, null, null));
+                                        databaseHandler.save(new temp_akun(1, title_con, first_nm, last_nm, uid, email, no_tlp));
                                     }else {
-                                        databaseHandler.save(new temp_akun(first_nm, email));
+                                        databaseHandler.save(new temp_akun(1, title_con, first_nm, last_nm, uid, email, no_tlp));
                                     }
 
 
